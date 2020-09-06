@@ -1,0 +1,91 @@
+<!-- <a href="mailto:info@studio57.nl"><i class='fa fa-envelope'></i></a> 
+| 
+<a href="#"><i class='fa fa-user'></i></a>
+|
+<a href="/cart"><i class='fa fa-cart'></i></a> -->
+<header class="wrapper top-header fixed-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-7">
+                <div class="top-header-left">
+                    <div class="list">
+                        <span class="fa fa-envelope"></span>
+                        <a href="mailto:niraliashitshah@gmail.com">
+                            niraliashitshah@gmail.com </a>
+                    </div>
+                    <div class="list">
+                        <span class="fa fa-phone"></span>
+                        <a href="tel:+91 99090-31690">
+                            +91 99090-31690 </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-5">
+                <div class="top-header-right">
+                    <div class="socialgroup">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom">
+                                    <i class="fa fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" href="#">Fin13</a>
+            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse"
+                data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom">
+                        <i class="fa fa-twitter"></i>
+                        <p class="d-lg-none">Twitter</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom">
+                        <i class="fa fa-facebook-square"></i>
+                        <p class="d-lg-none">Facebook</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom">
+                        <i class="fa fa-instagram"></i>
+                        <p class="d-lg-none">Instagram</p>
+                    </a>
+                </li> -->
+                <li class="nav-item">
+                    <a [routerLink]="['/home']" class="nav-link"><i class="fa fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/signup']" class="nav-link">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
